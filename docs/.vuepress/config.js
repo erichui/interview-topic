@@ -1,6 +1,7 @@
 module.exports = {
   title: '面试指北',
   description: '面试题目收集',
+  base: '/interview-topic/',
   markdown: {
     lineNumbers: true
   },
@@ -33,6 +34,13 @@ module.exports = {
         collapsable: false,
         children: [
           ["js-topic/", "JS 基础"]
+        ]
+      },
+      {
+        title: '网络相关',
+        collapsable: false,
+        children: [
+          ["network/http-history", "HTTP不同版本对比"]
         ]
       },
       {
