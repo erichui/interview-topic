@@ -1,13 +1,16 @@
 module.exports = {
-  title: '面试指北',
-  description: '面试题目收集',
+  title: '题目',
+  description: '题目收集',
   base: '/interview-topic/',
   markdown: {
-    lineNumbers: true
+    lineNumbers: true, // 代码行显示行号
+    toc: {  //  显示目录
+      includeLevel: [2, 3, 4, 5, 6]
+    }
   },
   themeConfig: {
     navbar: true,
-    sidebarDepth: 1,
+    sidebarDepth: 3,  // 侧边目录的层级
     displayAllHeaders: true,
     activeHeaderLinks: true,
     sidebar: 'auto',
@@ -47,7 +50,8 @@ module.exports = {
         title: '框架相关',
         collapsable: false,
         children: [
-          ["frame-topic/react", "react 相关"]
+          ["frame-topic/react", "react 相关"],
+          ["frame-topic/vue", "vue 相关"],
         ]
       },
     ]

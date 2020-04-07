@@ -1,8 +1,8 @@
 ---
 
 home: true
-heroText: 面试指北
-tagline: 面试题收集
+heroText: 题目
+tagline: 题目收集
 actionText: 开始打怪
 actionLink: /css-topic/
 features:
