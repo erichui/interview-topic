@@ -43,7 +43,8 @@ module.exports = {
         title: '网络相关',
         collapsable: false,
         children: [
-          ["network/http-history", "HTTP不同版本对比"]
+          ["network/http-history", "HTTP 不同版本对比"],
+          ["network/render-flow", "从输入 url 到页面渲染"],
         ]
       },
       {
@@ -52,6 +53,13 @@ module.exports = {
         children: [
           ["frame-topic/react", "react 相关"],
           ["frame-topic/vue", "vue 相关"],
+        ]
+      },
+      {
+        title: '性能优化',
+        collapsable: false,
+        children: [
+          ["performance-optimization/webpack", "webpack 相关"],
         ]
       },
     ]
